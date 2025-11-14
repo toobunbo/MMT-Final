@@ -82,8 +82,6 @@ Sơ đồ hệ thống
   * **AAA/Syslog Server:** 10.10.99.10 /24 (Default Gateway: 10.10.99.1)
   * **PC-Admin (Chạy Python):** 10.10.99.100 /24 (Default Gateway: 10.10.99.1)
 
------
-
 ### 3\. Hướng dẫn Đấu nối dây (Cabling Map)
 
 1.  **R-EDGE nối SW-CORE:**
@@ -103,8 +101,6 @@ Sơ đồ hệ thống
       * **Servers:** Nối vào **SW-DMZ** cổng bất kỳ (Sẽ gán vào VLAN 50).
       * **AAA/Admin PC:** Nối trực tiếp vào **SW-CORE** cổng **F0/24** (hoặc qua switch riêng), gán VLAN 99.
 
------
----
 
 **KẾT LUẬN:**
 Kiến trúc này đảm bảo 4 yếu tố vàng: **High Availability** (dự phòng tại Core), **Security** (Phân vùng DMZ/Internal), **Scalability** (Dễ dàng thêm VLAN mới), và **Modernity** (Có Automation).
