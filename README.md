@@ -1,5 +1,5 @@
 ### 1. Mô hình Hạ tầng mạng (Network Topology)
-Chúng ta sử dụng mô hình **Collapsed Core (Lõi thu gọn)** chuyên dụng cho doanh nghiệp quy mô vừa (SME/Branch Office).
+Chúng ta sử dụng mô hình **Collapsed Core (Lõi thu gọn)** (giải thích ra)... chuyên dụng cho doanh nghiệp quy mô vừa (SME/Branch Office).
 
 
 
@@ -28,6 +28,7 @@ Hệ thống được chia thành 3 vùng an ninh (Security Zones) riêng biệt
 2.  **Perimeter Security (Biên):** Dùng **Extended ACL** để lọc gói tin theo nguyên tắc *"Cấm tất cả, chỉ mở những gì cần thiết"*.
 3.  **Endpoint Security (Đầu cuối):** Dùng **Port Security** (Shutdown cổng nếu phát hiện MAC lạ) và **DHCP Snooping** (Chống giả mạo DHCP).
 4.  **Data Protection:** Dùng **VPN IPsec** cho kết nối từ xa an toàn.
+5.  Bổ sung thêm cơ chết bảo
 
 ### 4. Tự động hóa & Giám sát (Automation & Monitoring)
 * **Automation:** Sử dụng **Python Script** trên máy Management PC để tự động sao lưu cấu hình (Backup Config) và kiểm tra trạng thái thiết bị.
